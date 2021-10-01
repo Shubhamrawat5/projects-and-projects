@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c3e50;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#navbar {
+  width: 100vw;
+  height: 4rem;
+  background-color: #1f2b38;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 20px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in;
+}
+
+#navbar.show {
+  transform: translateY(0);
+}
+
+#navbar select {
+  background-color: #a7c5e3;
+  width: 200px;
+  height: 28px;
+  appearance: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#settings {
+  position: fixed;
+  left: 7vw;
+  bottom: 35px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#rules-btn {
+  position: fixed;
+  bottom: 35px;
+  right: 7vw;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+
+.card {
+  margin: 15vh auto;
+  width: 500px;
+  background-color: #34495e;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px #222;
+}
+
+.card h1 {
+  width: 100%;
+  background-color: #243342;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+#info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#word p {
+  margin-bottom: -5px;
+}
+
+.word {
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 70%;
+  border: 0;
+}
+
+#start {
+  margin: 1rem 0;
+  width: 40%;
+  color: #fff;
+  background-color: #28a745;
+}
+
+.card h3 {
+  font-size: 28px;
+  margin-bottom: 2rem;
+}
+
+.card .display-score {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.card .play-again {
+  color: #fff;
+  background-color: #28a745;
+}
+
+.container {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 25vh 0;
+  text-align: center;
+}
+
+.container.show {
+  visibility: visible;
+}
+
+.container #rules {
+  line-height: 1.8;
+  font-size: 110%;
+  background-color: rgba(18, 22, 33, 0.85);
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+.container h3 {
+  font-size: 28px;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container p:nth-of-type(3) {
+  text-decoration: underline;
+}
+
+.container #close {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  color: #fff;
+  background-color: transparent;
+  font-size: 28px;
+}
+
+@media (max-width: 400px) {
+  .card {
+    margin: 25vh auto;
+    width: 100vw;
+  }
+}
