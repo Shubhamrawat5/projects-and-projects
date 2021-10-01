@@ -1,0 +1,1462 @@
+{
+	"version": 24,
+	"artboards": [
+		{
+			"name": "Artboard",
+			"translation": [
+				0,
+				0
+			],
+			"width": 300,
+			"height": 300,
+			"origin": [
+				0,
+				0
+			],
+			"clipContents": true,
+			"color": [
+				0.9450980424880981,
+				0.9450980424880981,
+				0.9450980424880981,
+				1
+			],
+			"nodes": [
+				{
+					"name": "小红花",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 9,
+					"bones": [],
+					"atlas": 0,
+					"numVertices": 4,
+					"vertices": [
+						-64,
+						-64,
+						0.00390625,
+						0.00390625,
+						64,
+						-64,
+						0.50390625,
+						0.00390625,
+						64,
+						64,
+						0.50390625,
+						0.50390625,
+						-64,
+						64,
+						0.00390625,
+						0.50390625
+					],
+					"isDynamic": false,
+					"numTriangles": 2,
+					"triangles": [
+						3,
+						0,
+						1,
+						1,
+						2,
+						3
+					],
+					"type": "image"
+				},
+				{
+					"name": "Particle Line Left",
+					"translation": [
+						150,
+						152
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 1,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path",
+					"parent": 1,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								-140,
+								0
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 1,
+					"opacity": 1,
+					"color": [
+						0.8857142925262451,
+						0.30557146668434143,
+						0.4274015426635742,
+						1
+					],
+					"width": 10,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0,
+					"end": 0.001,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Particle Line Right",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 2,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path",
+					"parent": 4,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								140,
+								0
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 4,
+					"opacity": 1,
+					"color": [
+						0.8857142925262451,
+						0.30557146668434143,
+						0.4274015426635742,
+						1
+					],
+					"width": 10,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0,
+					"end": 0.001,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Particle Line Top",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 3,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path",
+					"parent": 7,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								-140
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 7,
+					"opacity": 1,
+					"color": [
+						0.8857142925262451,
+						0.30557146668434143,
+						0.4274015426635742,
+						1
+					],
+					"width": 10,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0,
+					"end": 0.001,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Particle Line Bottom",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 4,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path",
+					"parent": 10,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								140
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 10,
+					"opacity": 1,
+					"color": [
+						0.8857142925262451,
+						0.30557146668434143,
+						0.4274015426635742,
+						1
+					],
+					"width": 10,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0,
+					"end": 0.001,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Particle Line LT",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 5,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path",
+					"parent": 13,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								-100,
+								-100
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 13,
+					"opacity": 1,
+					"color": [
+						0.8857142925262451,
+						0.30557146668434143,
+						0.4274015426635742,
+						1
+					],
+					"width": 10,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0,
+					"end": 0.001,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Particle Line LB",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 6,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path",
+					"parent": 16,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								-100,
+								100
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 16,
+					"opacity": 1,
+					"color": [
+						0.8857142925262451,
+						0.30557146668434143,
+						0.4274015426635742,
+						1
+					],
+					"width": 10,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0,
+					"end": 0.001,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Particle Line RB",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 7,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path",
+					"parent": 19,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								100,
+								100
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 19,
+					"opacity": 1,
+					"color": [
+						0.8857142925262451,
+						0.30557146668434143,
+						0.4274015426635742,
+						1
+					],
+					"width": 10,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0,
+					"end": 0.001,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Particle Line RT",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 8,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path",
+					"parent": 22,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								100,
+								-100
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 22,
+					"opacity": 1,
+					"color": [
+						0.8857142925262451,
+						0.30557146668434143,
+						0.4274015426635742,
+						1
+					],
+					"width": 10,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0,
+					"end": 0.001,
+					"offset": 0,
+					"type": "colorStroke"
+				}
+			],
+			"animations": [
+				{
+					"name": "flower",
+					"fps": 60,
+					"duration": 1.2333333333333334,
+					"isLooping": false,
+					"keyed": [
+						{
+							"component": 0,
+							"scaleX": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 1.49011612e-8
+									},
+									{
+										"time": 0.3333333333333333,
+										"interpolatorType": 1,
+										"value": 0
+									},
+									{
+										"time": 0.5,
+										"interpolatorType": 1,
+										"value": 0.1
+									},
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": 0.1500000002980232
+									},
+									{
+										"time": 0.8333333333333334,
+										"interpolatorType": 1,
+										"value": 1.5000000715255737
+									},
+									{
+										"time": 1,
+										"interpolatorType": 1,
+										"value": 1.3000001192092896
+									},
+									{
+										"time": 1.1666666666666667,
+										"interpolatorType": 1,
+										"value": 1.00000715255737
+									}
+								]
+							],
+							"scaleY": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 1.49011612e-8
+									},
+									{
+										"time": 0.3333333333333333,
+										"interpolatorType": 1,
+										"value": 0
+									},
+									{
+										"time": 0.5,
+										"interpolatorType": 1,
+										"value": 0.1
+									},
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": 0.1500000002980232
+									},
+									{
+										"time": 0.8333333333333334,
+										"interpolatorType": 1,
+										"value": 1.5000000715255737
+									},
+									{
+										"time": 1,
+										"interpolatorType": 1,
+										"value": 1.3000001192092896
+									},
+									{
+										"time": 1.1666666666666667,
+										"interpolatorType": 1,
+										"value": 1.0000023841858
+									}
+								]
+							]
+						},
+						{
+							"component": 1
+						},
+						{
+							"component": 3,
+							"strokeOffset": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 0.6021505376344086,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							],
+							"strokeWidth": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 0.7833333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 10
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0
+									}
+								]
+							],
+							"strokeEnd": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.001
+									},
+									{
+										"time": 0.7833333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0,
+										"cubicY1": 0.3252688172043011,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.02
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0.001
+									}
+								]
+							],
+							"strokeColor": [
+								[
+									{
+										"time": 0.06336999998893589,
+										"interpolatorType": 1,
+										"value": [
+											0.8761904835700989,
+											0.37238097190856934,
+											0.5235238671302795,
+											1
+										]
+									},
+									{
+										"time": 0.07438499998534098,
+										"interpolatorType": 1,
+										"value": [
+											0.8714285492897034,
+											0.1655714213848114,
+											0.3773286044597626,
+											1
+										]
+									},
+									{
+										"time": 0.8,
+										"interpolatorType": 1,
+										"value": [
+											0.8679293990135193,
+											0.30819693207740784,
+											0.47611674666404724,
+											1
+										]
+									},
+									{
+										"time": 1.061855000036303,
+										"interpolatorType": 1,
+										"value": [
+											0.8666666746139526,
+											0.3596666753292084,
+											0.5117667317390442,
+											1
+										]
+									}
+								]
+							]
+						},
+						{
+							"component": 4
+						},
+						{
+							"component": 6,
+							"strokeWidth": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 0.7833333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 10
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0
+									}
+								]
+							],
+							"strokeEnd": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.001
+									},
+									{
+										"time": 0.7833333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0,
+										"cubicY1": 0.331989247311828,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.02
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0.001
+									}
+								]
+							],
+							"strokeOffset": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 0.5967741935483871,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							]
+						},
+						{
+							"component": 7
+						},
+						{
+							"component": 9,
+							"strokeWidth": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 0.7833333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 10
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0
+									}
+								]
+							],
+							"strokeEnd": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.001
+									},
+									{
+										"time": 0.7833333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0,
+										"cubicY1": 0.331989247311828,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.02
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0.001
+									}
+								]
+							],
+							"strokeOffset": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 0.5967741935483871,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							]
+						},
+						{
+							"component": 10
+						},
+						{
+							"component": 12,
+							"strokeWidth": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 0.7833333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 10
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0
+									}
+								]
+							],
+							"strokeEnd": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.001
+									},
+									{
+										"time": 0.7833333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0,
+										"cubicY1": 0.34543010752688175,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.02
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0.001
+									}
+								]
+							],
+							"strokeOffset": [
+								[
+									{
+										"time": 0.5,
+										"interpolatorType": 2,
+										"cubicX1": 0.5967741935483871,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 1.1166666666666667,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							]
+						},
+						{
+							"component": 13
+						},
+						{
+							"component": 15,
+							"strokeWidth": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 0.8166666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 10
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0
+									}
+								]
+							],
+							"strokeEnd": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.001
+									},
+									{
+										"time": 0.8166666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0,
+										"cubicY1": 0.3521505376344086,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.02
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0.001
+									}
+								]
+							],
+							"strokeOffset": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.5967741935483871,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							]
+						},
+						{
+							"component": 16
+						},
+						{
+							"component": 18,
+							"strokeWidth": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 0.8166666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 10
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0
+									}
+								]
+							],
+							"strokeEnd": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.001
+									},
+									{
+										"time": 0.8166666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0,
+										"cubicY1": 0.3588709677419355,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.02
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0.001
+									}
+								]
+							],
+							"strokeOffset": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.5967741935483871,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							]
+						},
+						{
+							"component": 19
+						},
+						{
+							"component": 21,
+							"strokeWidth": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 0.8166666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 10
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0
+									}
+								]
+							],
+							"strokeEnd": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.001
+									},
+									{
+										"time": 0.8166666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0,
+										"cubicY1": 0.3588709677419355,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.02
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0.001
+									}
+								]
+							],
+							"strokeOffset": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.5967741935483871,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							]
+						},
+						{
+							"component": 22
+						},
+						{
+							"component": 24,
+							"strokeWidth": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 0.8166666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 10
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0
+									}
+								]
+							],
+							"strokeEnd": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.001
+									},
+									{
+										"time": 0.8166666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0,
+										"cubicY1": 0.3655913978494624,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.02
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0.001
+									}
+								]
+							],
+							"strokeOffset": [
+								[
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.5967741935483871,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 1.15,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							]
+						}
+					],
+					"animationStart": 0,
+					"animationEnd": 1.1666666666666667,
+					"type": "animation"
+				}
+			],
+			"type": "artboard"
+		}
+	],
+	"atlases": {
+		"isOOB": false,
+		"data": [
+			"data:image/png;base64,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5kngOQQqJgAnvND92z4IrT4KpSpU5sr7ELSzDgpvLMazYaoFm/MKjqZTouZcpTIdKvCvveHB94tuoBEJFJFAxQUg+zawKbQMjvoCFLYWMbYcTekdgH63uv3m7AEbum/bS7JrFZS6MF8fxlNJHErFYURAcrU7wbuCjvPXK0e2H5XY04YEik2gKgTg2beBgcugYbYRX17sQE9p724o7yb1Pzf/erY+dF/orYD6IBR6pT5EMhk8noyePKAk132tTuDhBY7zei7wyUWKfy81gaoSgJNCsCV0Hjy8B8BAkX4aJAD8EJ73JXXnzfflgqpNQZP+ba8CnHcCuGIuezPIN55OYuqZg0nma9eF8lpd567moPcPy+66ZU8uH/h3EigHgaoUgJNCcPE1XWhsuApQF0OrLVCQV8PReh+gbgf0CLzET9Vd2/OaVtPHxehVgLrU09g05SW7zbz+ZCaNdI5X/SalIo2Ouyeo1G0rRwY/Vo6Esg8S8EOgqgXg9ED0y65biJR+PhyvC3DaoXU7gBZAzUB7k3AwBc85iqC6V/36u+N+QEhsD5zd3xRc3HlVUumNGahVjkaTUqpROXCVdiaU4x11PIw72nmsJdjww467f3BM0i5tSKBSBGpKACoFif2SgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIEABEECiCQnYSoACYGtmGRcJCAhQAASQaEICthKgANiaWcZFAgICFAABJJqQgK0EKAC2ZpZxkYCAAAVAAIkmJGArAQqArZllXCQgIPD/PXQOeaGfe6cAAAAASUVORK5CYII="
+		]
+	}
+}
