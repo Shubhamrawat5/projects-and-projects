@@ -47,7 +47,7 @@ JOIN OUR WHATSAPP GROUP: https://chat.whatsapp.com/EnrPJcdDxw16NcHOV6wrJY
 ## :handshake: Our Contributors
 
 <a href="https://github.com/Shubhamrawat5/projects-and-projects/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Shubhamrawat5/projects-and-projects" />
+  <img src="https://contrib.rocks/image?repo=Shubhamrawat5/projects-and-projects&max=99" />
 </a>
 
 <h2 align="center">
