@@ -1,0 +1,75 @@
+body {
+  font-family: "Signika Negative", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(1, 1, 39);
+  color: white;
+  padding: 14px 0;
+}
+footer {
+  text-align: center;
+  background-color: rgb(1, 1, 39);
+  color: white;
+  padding: 14px 0;
+}
+
+.year-container {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.result-year-container {
+  padding: 0 20px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+h1,
+h2,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+
+.result {
+  background-color: #54856e;
+  color: white;
+}
+
+.sem {
+  background-color: #f9f7f7;
+}
+
+@media (max-width: 1200px) {
+  .year-container {
+    grid-template-columns: repeat(2, auto);
+  }
+  .result-year-container {
+    grid-template-columns: repeat(2, auto);
+  }
+  .result-year-container .card:last-child {
+    grid-column: 1/3;
+  }
+}
+@media (max-width: 600px) {
+  .year-container {
+    grid-template-columns: repeat(1, auto);
+  }
+  .result-year-container {
+    grid-template-columns: repeat(1, auto);
+  }
+  .result-year-container .card:last-child {
+    grid-column: 1/1;
+  }
+}
