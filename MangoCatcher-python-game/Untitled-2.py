@@ -1,4 +1,3 @@
-# Frozen Jam by tgfcoder https://twitter.com/tgfcoder licensed under CC-BY-3
 
 import pygame
 import os
