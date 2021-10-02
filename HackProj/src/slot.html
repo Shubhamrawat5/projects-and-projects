@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SLOT BOOKING</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="slots">
+         <header>
+               <div class="container">
+               
+               <div class="header-top">
+                   COVID VACCINE DISTRIBUTOR 
+               </div>
+               
+               <div class="header-bot">
+                   <a class="header-bot" href="../index.html">HOME</a>
+               </div>
+               
+           </div>
+        </header>
+       
+        <div class="mid slot">
+           <div class="info">
+               <div>     
+                   <h1 style="color: darkblue">SLOT BOOKING</h1>
+               </div>
+               <div class="blockslot">
+                   <form>
+                       <label for="number">Select number of Family Members coming for Vaccination:</label>
+                       <select name="number" id="people">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                       </select>
+                   </form>    
+               </div>
+               <div class="blockslot">
+                    <form>
+                        <label for="calendar">Select Date:</label>
+                        <input type="date" id="calendar">
+                    </form>
+               </div>
+               <div class="blockslot times">
+                    <form>
+                       <fieldset>
+                          <legend>Select your preferred Slot Timings:</legend>
+                          <div class="time">
+                              &emsp;<input type="radio" class="time" name="slot" value="9AM-10AM">
+                              <label for="time">9AM-10AM</label>
+
+                              <input type="radio" class="time" name="slot" value="10AM-11AM">
+                              <label for="time">10AM-11AM</label>
+
+                              <input type="radio" class="time" name="slot" value="11AM-12PM">
+                              <label for="time">11AM-12PM</label>
+                         </div>
+                         <div class="time">
+                              <input type="radio" class="time" name="slot" value="12PM-1PM">
+                              <label for="time">12PM-1PM&nbsp; </label>
+
+                              <input type="radio" class="time" name="slot" value="3PM-4PM">
+                              <label for="time">3PM-4PM &ensp;&ensp; </label>
+
+                              <input type="radio" class="time" name="slot" value="4PM-5PM">
+                              <label for="time">4PM-5PM</label>
+                         </div>  
+                         <div class="time">
+                              <input type="radio" class="time" name="slot" value="5PM-6PM">
+                              <label for="time">5PM-6PM&ensp;&nbsp;</label>
+
+                              <input type="radio" class="time" name="slot" value="6PM-7PM">
+                              <label for="time">6PM-7PM&ensp;&nbsp;&ensp;</label>
+
+                              <input type="radio" class="time" name="slot" value="7PM-8PM">
+                              <label for="time">7PM-8PM</label>
+                         </div>  
+             
+                       </fieldset>
+                    </form>
+               </div>
+               <div class="blockslot">
+                         <button type="submit" class="btn" onclick="openPayment()">SUBMIT</button>
+               </div>
+           </div>      
+           <div id="cont">
+               <button class="btn" onclick="display_slot()">CONTINUE</button>
+           </div>       
+        </div>
+        <footer>
+            
+        </footer>
+        <script type="text/javascript" src="vaccine.js"></script>   
+        
+    </body>
+</html>    

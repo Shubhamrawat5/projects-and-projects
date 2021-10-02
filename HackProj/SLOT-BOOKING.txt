@@ -1,0 +1,9 @@
+SLOT BOOKING
+
+AIM: To book slots for any purpose. I designed this, focussing on 
+     Covid Vaccination Camps.
+
+STACKS USED: HTML - for basic layout of the website,
+             CSS - for designing purposes, 
+             JavaScript - for calling out functions when user click on some specific buttons,
+             JQuery - fetching data using API
