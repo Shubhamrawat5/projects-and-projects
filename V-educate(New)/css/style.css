@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+.logo{
+	display: flex;
+	padding: 5px 27px;
+}
+.logo img{
+	width: 26%;
+	border: 2px white solid;
+	border-radius: 50px;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+	
+	
+}
+.navlist{
+	width:50%;
+	display: flex;
+	/*background-color: black;*/
+	align-items: center;
+	/*justify-content: center;*/
+
+}
+.navlist li{
+	list-style: none;
+	padding: 26px 30px;
+	
+
+
+}
+.navlist li a{
+	display: flex;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+.navlist li a:hover{
+	color: gray;
+}
+.btn:hover{
+	color: gray;
+}
+.btn_form:hover{
+	color:gray
+
+}
+
+.rightnav{
+	width: 50%;
+	/*background-color: blueviolet;*/
+	text-align: right;
+	padding: 0 25px;
+}
+#search{
+	padding: 5px;
+	font-size: 17px;
+	border: 4px solid white;
+	border-radius: 9px;
+}
+.background{
+	background: rgba(0, 0,0, 0.7)url(/img/joel-vodell-TApAkERW5pQ-unsplash.jpg);
+	background-size: cover;
+	background-blend-mode: darken;
+}
+.firstSection{
+	height:100vh;
+}
+.box-main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	max-width: 50%;
+	margin: auto;
+	height: 40%;
+}
+.firstHalf{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.secondHalf{
+
+	margin-right: -24px;
+    width: 34%;
+}
+.secondHalf img {
+	width: 70%;
+	border: 4px solid white;
+	border-radius: 300px;
+	display: block;
+	margin: auto;
+}
+.textBig{
+	font-size: 35px;
+
+}
+.textSmall{
+	font-size: 19px;
+
+}
+.btn{
+	padding: 8px 20px;
+	margin: 7px 10px;
+	border: 2px solid white;
+	border-radius: 8px;
+	/*font-size: 18px;*/
+	background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_sm{
+	padding: 6px 10px;
+	vertical-align: middle;
+}
+.section{
+	/*height: 409px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Oxygen', sans-serif;
+}.left{
+	flex-direction: row-reverse;
+	
+}
+.round-div{
+	border: 1px solid gray;
+    border-radius: 59px;
+}
+.paras{
+	padding: 0px 68px;
+}
+.thumbnail img{
+	width: 233px;
+    border: 2px solid black;
+    border-radius: 51px;
+    margin-top: 46px;
+}
+.get{
+	/* position: relative;
+	top: -18px;
+	right: -16px; */
+	margin-left: 1rem;
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+}
+.sectionSubTag{
+	font-family: 'Karla', sans-serif;
+}
+.sectionTag{
+	padding: 16px 0;
+}
+.oceanGreenTint{
+	background-color: rgb(98 112 113 / 52%);
+}
+.gryeshTint{
+	background-color:rgb(235 235 235);
+}
+.whiteTint{
+	background-color: rgb(104, 98, 98);
+}
+.contact{
+	height: 533px;
+}
+.textCenter{
+	text-align: center;
+	padding: 47px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 38px;
+}
+.form{
+	max-width: 511px;
+    margin: -2px auto
+}
+.btn_form{
+	color: black;
+	cursor: pointer;
+    /* vertical-align: middle; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+
+}
+.form input{
+	margin: 14px 0;
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 7px 5px;
+
+}
+.moving{
+	background-image: url(https://media.giphy.com/media/l2Sqf1fbj1qrmaJ6E/giphy.gif);
+    width: 80%;
+    margin: auto;
+    /* background-color: tomato; */
+}
+.burger{
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	right: 5%;
+	top:9px;
+
+}
+.line{
+	width: 33px;
+	background-color: white;
+	height: 4px;
+	margin: 5px 3px;
+}
+/*  Top Button  */
+#topButton {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 6px;
+
+	border-radius: 31%
+    }
+    
+    #topButton:hover{
+	background-color: #555;
+    }
+.text-footer{
+	color: white;
+		text-align: center;
+		padding: 23px;
+}
+
+
+

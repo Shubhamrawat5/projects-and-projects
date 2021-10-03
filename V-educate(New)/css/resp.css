@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1161px){
+	.navlist{
+		flex-direction: column;
+	}
+	.navbar{
+		flex-direction: column;
+		transition: all 0.3s ease-out;
+		height: 411px;
+	}
+	.rightnav{
+		text-align: center;
+	}
+	.box-main{
+		padding: 130px 25px;
+		flex-direction: column-reverse;
+		max-width: 100%;
+		text-align: center;
+	}
+	#search{
+		width: 100%;
+	}
+	.burger{
+		display: block;
+	}
+	.h-nav-resp{
+		height:51px;
+	}
+	.v-class-resp{
+		opacity: 0;
+	}
+	.section{
+		flex-direction: column-reverse;
+	}
+	.textBig{
+		text-align: center;
+	}
+	.textSmall{
+		text-align: center;
+	}
+	.btn{
+		text-align: center;
+	}
+	.paras{
+		padding: 0px;
+	}
+	.logo{
+		margin: auto;
+	}
+	.logo img{
+		width: 61%;
+		margin: auto;
+	}
+	
+	
+}
