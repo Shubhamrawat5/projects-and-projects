@@ -1,3 +1,9 @@
+# Tik-Tak-Toe
+
+![Screenshot (3)](https://user-images.githubusercontent.com/40532644/135804849-db9b7be8-ffe2-4b5c-a514-082033fb786d.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
