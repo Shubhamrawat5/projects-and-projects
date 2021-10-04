@@ -1,7 +1,6 @@
 # Tik-Tak-Toe
 
-![Screenshot (3)](https://user-images.githubusercontent.com/40532644/135804849-db9b7be8-ffe2-4b5c-a514-082033fb786d.png)
-
+![Screenshot (4)](https://user-images.githubusercontent.com/40532644/135805189-fcf3f44f-6bf6-4ab7-8bee-65acbeb31066.png)
 
 
 # Getting Started with Create React App
