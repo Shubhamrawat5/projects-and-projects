@@ -92,3 +92,5 @@ btnhold.addEventListener('click', function () {
 });
 
 btnnew.addEventListener('click', init);
+
+console.log("hello world");   
