@@ -1,4 +1,4 @@
-# UTU-Percentage-Calculator
+# UTU-Percentage-Calculator_Rule
 
 <img width="900" src="https://i.ibb.co/WvHdrLH/utu2.jpg"/>
 
