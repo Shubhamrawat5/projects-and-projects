@@ -76,4 +76,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Tutorial
 
-Video Tutorial of Tik-Tak-Toe : [Youtube](https://www.youtube.com/watch?v=2hw7bg-gNRA)
+Video Tutorial of Tik-Tak-Toe Game : [Youtube](https://www.youtube.com/watch?v=2hw7bg-gNRA)
