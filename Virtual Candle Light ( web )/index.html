@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>RUTHVIJ 2021</title>
+  </head>
+
+  <body>
+    <div class="text-effect">
+      <h2>Ruthvij'21</h2>
+    </div>
+    <div class="holder">
+      <div class="candle">
+        <div id="blinking-glow"></div>
+        <button id="btn" onclick="toggleHide()">
+          <div class="thread"></div>
+        </button>
+        <div id="glow"></div>
+        <div id="flame"></div>
+      </div>
+    </div>
+
+    <div class="text">
+      <h4>
+        Made with <i class="fas fa-heart"></i> by
+        <span class="name">Sayak Saha</span>, on behalf of ECE Department
+      </h4>
+    </div>
+
+    <script>
+      function toggleHide() {
+        let btn = document.getElementById("btn");
+        let flame = document.getElementById("flame");
+        let glow = document.getElementById("glow");
+
+        var clap = new Audio();
+        clap.src = "clap.mp3";
+        var match = new Audio();
+        match.src = "match.mp3";
+
+        // const audio = new Audio();
+        // audio.src = "clap.mp3";
+
+        let blink = document.getElementById("blinking-glow");
+        if (
+          flame.style.display != "none" &&
+          glow.style.display != "none" &&
+          blink.style.display != "none"
+        ) {
+          flame.style.display = "none";
+          glow.style.display = "none";
+          blink.style.display = "none";
+        } else {
+          match.play();
+          setTimeout(function () {
+            flame.style.display = "block";
+            glow.style.display = "block";
+            blink.style.display = "block";
+            clap.play();
+          }, 1500);
+        }
+      }
+    </script>
+  </body>
+</html>
