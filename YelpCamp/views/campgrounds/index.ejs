@@ -1,0 +1,37 @@
+<%- include('../partials/start') %>
+<div>
+    <div id="map" style="height: 400px; width: 100%"></div>
+</div>
+<main class="container my-5">
+    <h1>All Campgrounds</h1>
+    <div class="row">
+        <% for(let campground of campgrounds){ %>
+            <div class="col-12 col-xl-3">
+                <div class="card mb-2">
+                    <div class="row g-0">
+                        <div class="col-md-4 col-xl-12">
+                            <img src="<%=campground.image[0].path%>" class="img-fluid card-img-top">
+                        </div>
+                        <div class="col-md-8 col-xl-12">
+                            <div class="card-body">
+                                <h2 class="h5"><%=campground.title%></h2>
+                                <p><%=campground.description.substr(0,140)%> ...</p>
+                                <p class="text-muted"><%=campground.location%></p>
+                                <a href="/campgrounds/<%=campground._id%>" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    </div>
+</main>
+<script>
+    const mbxToken = '<%=process.env.mbxToken%>';
+    const campgrounds = {features: <%- JSON.stringify(campgrounds) %>};
+    
+    const navCampgrounds = document.querySelector('#nav-campgrounds');
+    navCampgrounds.classList.add('active');
+</script>
+<script src="/minified/js/clusterMap.js"></script>
+<%- include('../partials/end') %>

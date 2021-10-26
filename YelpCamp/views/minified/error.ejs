@@ -1,0 +1,1 @@
+<%- include('partials/start-container') %> <div class="row"> <div class="col-md-6 offset-3"> <div class="alert alert-danger"> <h2 class="h4 alert-heading">Error <%=err.status%></h2> <p><%=err.message%></p> <% if(process.env.NODE_ENV !== 'production'){ %> <p><%=err.stack%></p> <% } %> </div> </div> </div> <%- include('partials/end-container') %>

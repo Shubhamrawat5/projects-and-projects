@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="/minified/css/home.css">
+        <title>YelpCamp</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark">
+            <div class="container d-sm-flex flex-sm-row flex-column">
+                <div class="navbar-nav flex-row">
+                    <a href="/" class="navbar-brand">YelpCamp</a>
+                </div>
+                <div class="navbar-nav flex-row">
+                    <a href="/" class="nav-link ms-3 active">Home</a>
+                    <a href="/campgrounds" class="nav-link ms-3">Campgrounds</a>
+                    <% if(!user){ %>
+                        <a href="/login" class="nav-link ms-3">Login</a>
+                        <a href="/register" class="nav-link ms-3">Register</a>
+                    <% }else{ %>
+                        <form action="/logout" method="POST" id="logout-form">
+                            <a href="/hulkla" class="nav-link ms-3" id="logout-link">Logout</a>
+                        </form>
+                    <% } %>
+                </div>
+            </div>
+        </nav>
+        <main class="text-center text-white">
+            <h1>YelpCamp</h1>
+            <div>Welcome to YelpCamp!</div>
+            <div>Jump right in and explore our many campgrounds.</div>
+            <div>Feel free to share some of your own and comment on others!</div>
+            <a href="/campgrounds" class="btn btn-light mt-3"><b>View Campgrounds</b></a>
+        </main>
+        <footer class="text-white-50 py-3 text-center">&copy;YelpCamp</footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="/minified/js/home.js"></script>
+    </body>
+</html>
