@@ -1,0 +1,16 @@
+<%- include('partials/start') %>
+<div class="row">
+    <div class="col-12 col-sm-6 offset-sm-3 col-xl-4 offset-xl-4">
+        <div class="alert alert-danger d-flex justify-content-between px-3">
+            <div>
+                <h1 class="h3">Error <%= err.status %></h1>
+                <p class="mb-0"><%= err.message %></p>
+            </div>
+            <div class="spinner-border text-dark"></div>
+        </div>
+    </div>
+</div>
+<script>
+    setTimeout(() => window.location.replace('/'),2000)
+</script>
+<%- include('partials/end') %>
