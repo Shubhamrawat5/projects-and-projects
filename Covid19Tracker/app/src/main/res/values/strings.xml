@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Covid 19-Tracker</string>
+
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="total">Total</string>
+    <string name="deaths">Deaths</string>
+    <string name="covid_19">Covid-19</string>
+    <string name="country">Country</string>
+    <string name="cases">Cases</string>
+    <string name="increment_number">+232325</string>
+    <string name="number">2323236544</string>
+
+
+</resources>
