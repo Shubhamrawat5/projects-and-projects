@@ -1,0 +1,21 @@
+#flash-container{
+    position: fixed;
+    top: 65px;
+    right: 8px;
+    z-index: 3;
+}
+@media(min-width: 576px) and (max-width: 767px){
+    #flash-container{
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width: 767px){
+    #flash-container{
+        position: static;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        /* padding-top: 15px; */
+    }
+}

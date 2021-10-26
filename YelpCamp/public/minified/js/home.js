@@ -1,0 +1,1 @@
+const logoutLink=document.querySelector("#logout-link"),logoutForm=document.querySelector("#logout-form");logoutLink&&logoutLink.addEventListener("click",(function(o){o.preventDefault(),logoutForm.submit()}));

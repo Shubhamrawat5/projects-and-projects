@@ -1,0 +1,1 @@
+const alerts=document.querySelectorAll(".alert");for(const e of alerts)setTimeout((function(){e.children[0].click()}),5e3);

@@ -1,0 +1,1 @@
+const maxSize=10485760,files=document.querySelector("#image"),form=document.querySelector("#main-form");function fileChange(e){for(const i of files.files)if(i.size>maxSize){e.preventDefault(),location.reload();break}}form.addEventListener("submit",fileChange);
