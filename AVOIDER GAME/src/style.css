@@ -1,0 +1,63 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:black;
+}
+.header,.header-text{
+    text-align:center;
+    padding:10px;
+    font-size:24px;
+    color:rgb(255, 208, 1);
+    font-family:Montserrat;
+}
+.header-text:hover {
+    color:rgb(252, 176, 45);
+}
+.left{
+    padding-left:20%;
+    text-align:center;
+    font-size:24px;
+    color:rgb(255, 208, 1);
+    font-family:Montserrat;
+}
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display:inline-grid;
+    grid-template-columns: repeat(3,40px);
+    padding:40px;
+    gap:7px;
+    border:1px solid rgb(255, 255, 255);
+    background:#000000;
+}
+.cell{
+    height:40px;
+}
+.enemy,.player{
+    width:100%;
+    height:100%;
+    border-radius:50px;
+}
+.enemy{
+    background:#ffffff;
+}
+.player{
+    background:rgb(255, 111, 0);
+}
+#bottom{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    color:#f6c800;
+    padding: 15px 0px;
+}
+#bottom a { text-decoration: none; color:rgb(255, 208, 1); }
+#bottom a:hover { text-decoration: none; color:rgb(237, 148, 40); }
+
+
